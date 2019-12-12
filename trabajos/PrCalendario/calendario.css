@@ -1,0 +1,74 @@
+body {
+    background: rgb(248, 236, 197);
+    /* background-image: url("background.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#miTitulo {
+    text-align: center;
+}
+
+#fechaactual {
+    text-align: center;
+}
+
+#titulos {
+    text-align: center;
+}
+
+#buscafecha {
+    text-align: center;
+}
+
+#anterior {
+    font-weight: bold;
+    color: chocolate;
+    position: absolute;
+    display: inline;
+    /*float: right;*/
+    margin-left: 550px;
+}
+
+#posterior {
+    font-weight: bold;
+    color: chocolate;
+    position: absolute;
+    display: inline;
+    /*float: left;*/
+    margin-left: 910px;
+}
+
+#hoy {
+    color: chocolate;
+}
+
+th {
+    background: rgb(241, 148, 81);
+    width: 50px;
+    height: 15px;
+}
+
+td {
+    height: 25px;
+}
+
+tr:hover {
+    background-color: black;
+    /* negrita */
+}
+
+.input {
+    background: rgb(218, 211, 211);
+    border: 1px solid grey;
+    text-align: center;
+}
+
+#diasc,
+th,
+td {
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
