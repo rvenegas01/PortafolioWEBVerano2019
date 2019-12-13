@@ -24,19 +24,19 @@ body {
 #anterior {
     font-weight: bold;
     color: chocolate;
-    position: absolute;
+    position: relative;
     display: inline;
-    /*float: right;*/
-    margin-left: 550px;
+    left: 330px;
+    top: 60px;
 }
 
 #posterior {
     font-weight: bold;
     color: chocolate;
-    position: absolute;
+    position: relative;
     display: inline;
-    /*float: left;*/
-    margin-left: 910px;
+    left: 630px;
+    top: 60px;
 }
 
 #hoy {
