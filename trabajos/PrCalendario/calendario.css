@@ -7,6 +7,10 @@ body {
 
 #miTitulo {
     text-align: center;
+    position: relative;
+    border: 2px dashed slategray;
+    width: 570px;
+    left: 500px;
 }
 
 #fechaactual {
@@ -26,7 +30,7 @@ body {
     color: chocolate;
     position: relative;
     display: inline;
-    left: 330px;
+    left: 570px;
     top: 60px;
 }
 
@@ -35,7 +39,7 @@ body {
     color: chocolate;
     position: relative;
     display: inline;
-    left: 630px;
+    left: 840px;
     top: 60px;
 }
 
