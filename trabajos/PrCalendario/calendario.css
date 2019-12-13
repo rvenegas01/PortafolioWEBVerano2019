@@ -6,19 +6,25 @@ body {
 }
 
 #miTitulo {
+    background: rgb(230, 230, 230);
+    color: chocolate;
     text-align: center;
     position: relative;
-    border: 2px dashed slategray;
+    border: 2px dashed chocolate;
+    border-radius: 25px;
     width: 570px;
-    left: 500px;
+    left: 480px;
 }
 
 #fechaactual {
     text-align: center;
+    font-weight: bold;
 }
 
 #titulos {
     text-align: center;
+    color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #buscafecha {
@@ -26,21 +32,23 @@ body {
 }
 
 #anterior {
-    font-weight: bold;
     color: chocolate;
+    background: rgb(230, 230, 230);
     position: relative;
     display: inline;
-    left: 570px;
+    left: 540px;
     top: 60px;
+    border: 1px solid chocolate;
 }
 
 #posterior {
-    font-weight: bold;
     color: chocolate;
+    background: rgb(230, 230, 230);
     position: relative;
     display: inline;
     left: 840px;
     top: 60px;
+    border: 1px solid chocolate;
 }
 
 #hoy {
@@ -74,5 +82,16 @@ td {
     margin: auto;
     border: 2px solid black;
     border-collapse: collapse;
+    text-align: center;
+}
+
+#button {
+    color: chocolate;
+    font-weight: bold;
+}
+
+.buscar {
+    color: chocolate;
+    font-weight: bold;
     text-align: center;
 }
