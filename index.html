@@ -6,35 +6,42 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Portafolio Desarrollo Web</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='portafolio.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
-    <h1>Portafolio Desarrollo Web (Verano 2019-2020)</h1>
-    <section>
-        <h3>Información del curso</h3>
-        <p>
-            IC8057<br> Introducción al desarrollo de páginas WEB<br> Periodo de Verano (2019-2020)<br> Profesor que imparte: ERICKA SOLANO FERNANDEZ<br>
-            <img src="imgs/WEBimg.png" alt="WEBimg" height="90" width="140">
-        </p>
-    </section>
-    <section>
-        <h3>Estudiante</h3>
-        <p>
-            Rodrigo Isaac Venegas Vega<br> Carné: 2017047627 - Centro Académico de Alajuela<br>
-            <img src="imgs/mifoto.jpg" alt="mifoto" height="170" width="140"><br> Intereses sobre la carrera:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Noto mis fortalezas en el back-end, me apasiona crear rutinas que, finalmente y<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            en conjunto, se convertirán en una funcionalidad de una aplicación. Sin<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; embargo, me gustaría desenvolverme de una mejor forma en el front-end y<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desarrollar mi
-            creatividad para desempeñarme en este área como todo un<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; profesional.<br> Hobbies:
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; En mi tiempo libre disfruto de pasar el tiempo con mis hermanos y mis primos,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; solemos reunirnos e inventar alguna forma de divertirnos.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Me estoy iniciando en el ciclismo, suelo entrenar cada vez que tengo tiempo libre<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; El Domingo 8 de Diciembre del 2019 asistí a mi primera recreativa y me encantó.<br>
-        </p>
-    </section>
-    <section>
-        <h3>Sobre el curso</h3>
+    <h1 id="titulo">Portafolio Desarrollo Web</h1>
+    <section id="infogeneral">
+        <article id="curso">
+            <h3>Información del curso</h3>
+            <p>
+                IC8057<br> Introducción al desarrollo de páginas WEB<br> Periodo de Verano (2019-2020)<br> Profesor que imparte: ERICKA SOLANO FERNANDEZ<br>
 
-        <table id=t01 style="width:80%">
-            <caption>Tareas</caption>
+                <img src="imgs/WEBimg.png" alt="WEBimg" class="img" id="imgrepresentativa">
+
+            </p>
+        </article>
+        <article id="estudiante">
+            <h3>Estudiante</h3>
+            <p>
+                <br> Rodrigo Isaac Venegas Vega<br> Carné: 2017047627 - Centro Académico de Alajuela<br>
+                <div class="img">
+                    <img src="imgs/mifoto.jpg" alt="mifoto" class="img" id="mifoto"><br>
+                </div>
+                Intereses sobre la carrera:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Noto mis fortalezas en el back-end, me apasiona crear rutinas que, finalmente y<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en conjunto, se convertirán en funcionalidad
+                de una aplicación. Sin<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; embargo, me gustaría desenvolverme de una mejor forma en el front-end y<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desarrollar mi creatividad para desempeñarme en este área
+                como todo un<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; profesional.<br><br> Hobbies:
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; En mi tiempo libre disfruto de pasar el tiempo con mis hermanos y mis primos,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; solemos reunirnos e inventar alguna forma de divertirnos.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Me estoy iniciando en el ciclismo, suelo entrenar cada vez que tengo tiempo libre<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; El Domingo 8 de Diciembre del 2019 asistí a mi primera recreativa y me encantó.<br>
+            </p>
+        </article>
+    </section>
+    <section id="trabajos">
+        <h3 id="subtitulo1">Sobre el curso</h3>
+
+        <table class="table" id=t01>
+            <caption class="titulotabla">Tareas</caption>
             <tr>
                 <th>Tarea</th>
                 <th>Descripción</th>
@@ -61,9 +68,39 @@
                     <a href="trabajos/PrCalendario/calendario.html" target="_blank">Calendario</a>
                 </td>
             </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
         </table>
-        <table id=t02 style="width:80%">
-            <caption>Proyectos</caption>
+        <table class="table" id=t02>
+            <caption class="titulotabla">Proyectos</caption>
             <tr>
                 <th>Proyecto</th>
                 <th>Descripción</th>
@@ -77,8 +114,8 @@
                 </td>
             </tr>
         </table>
-        <table id=t03 style="width:80%">
-            <caption>Laboratorios</caption>
+        <table class="table" id=t03>
+            <caption class="titulotabla">Laboratorios</caption>
             <tr>
                 <th>Laboratorio</th>
                 <th>Descripción</th>
@@ -92,8 +129,8 @@
                 </td>
             </tr>
         </table>
-        <table id=t04 style="width:80%">
-            <caption>Trabajos de Investigación</caption>
+        <table class="table" id=t04>
+            <caption class="titulotabla">Trabajos de Investigación</caption>
             <tr>
                 <th>Investigación</th>
                 <th>Descripción</th>
@@ -109,11 +146,11 @@
         </table>
     </section>
 
+    <footer>
+        <br>
+        <br>
+        <br> Rodrigo Isaac Venegas Vega<br> Carné: 2017047627<br> risaacvene24@gmail.com
+    </footer>
 </body>
-<footer>
-    <br>
-    <br>
-    <br> Rodrigo Isaac Venegas Vega<br> Carné: 2017047627<br> risaacvene24@gmail.com
-</footer>
 
 </html>
