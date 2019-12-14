@@ -80,8 +80,8 @@ article {
 }
 
 #trabajos {
+    position: static;
     background-size: cover;
-    align-self: center;
 }
 
 #subtitulo1 {
