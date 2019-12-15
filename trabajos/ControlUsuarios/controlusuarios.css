@@ -1,0 +1,48 @@
+#t1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.div {
+    width: max-content;
+    height: max-content;
+}
+
+#input {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+}
+
+#username {}
+
+#pw {}
+
+#button {
+    position: absolute;
+}
+
+#ref {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+}
+
+#reg {
+    position: absolute;
+    width: max-content;
+    left: 150px;
+    bottom: 110px;
+}
+
+#cp {
+    position: absolute;
+    width: max-content;
+    right: 20px;
+    bottom: 45px;
+}
+
+#fp {}

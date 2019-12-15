@@ -38,11 +38,12 @@ article {
     margin-right: 90px;
     margin-left: 50px;
     margin-top: 100px;
-    top: 90px;
+    top: 89px;
     height: 150px;
     text-align: center;
     border-radius: 30px;
     color: aliceblue;
+    display: block;
 }
 
 #estudiante {
@@ -55,9 +56,11 @@ article {
     margin-top: 100px;
     top: -10px;
     height: 400px;
+    width: max-content;
     text-align: justify;
     border-radius: 30px;
     color: aliceblue;
+    display: block;
 }
 
 #imgrepresentativa {
@@ -80,16 +83,35 @@ article {
 }
 
 #trabajos {
-    position: static;
-    background-size: cover;
+    position: absolute;
+    width: max-content;
 }
 
 #subtitulo1 {
-    position: static;
     height: 43px;
     background: rgb(31, 31, 59);
+    text-align: center;
+    height: min-content;
+    width: 200%;
     color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    z-index: 3;
+    border-radius: 5px;
+}
+
+.table {
+    margin: auto;
+    width: 200%;
+    border: 2px solid black;
+}
+
+.titulotabla {
+    color: aliceblue;
+    width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(31, 31, 59);
+    border-radius: 5px;
+}
+
+footer {
+    opacity: 0;
 }
