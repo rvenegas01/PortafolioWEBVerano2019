@@ -80,6 +80,16 @@ textarea {
     left: 40%;
 }
 
+input {
+    border: 3px solid steelblue;
+    border-radius: 15px;
+    background-color: black;
+    font-weight: bold;
+    text-indent: 10px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #reg {
     color: black;
     position: absolute;
@@ -115,4 +125,38 @@ textarea {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: steelblue;
+}
+
+.txtfield {
+    height: 30px;
+}
+
+#email_recovery {
+    position: absolute;
+    left: -160px;
+}
+
+#formsu {
+    position: relative;
+    top: 100px;
+}
+
+#reg_title {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: steelblue;
+    top: -100px;
+}
+
+#button_reg {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    background: steelblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
 }
