@@ -176,9 +176,12 @@ input {
     font-size: medium;
     text-indent: 0px;
     left: 170px;
+<<<<<<< HEAD
 }
 
 input[type="submit"]:hover {
     background-color: #00b8eb;
     cursor: pointer;
+=======
+>>>>>>> proto
 }
